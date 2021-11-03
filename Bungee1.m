@@ -40,12 +40,6 @@ for n = 2:ninc
     x(n)  = x(n-1) + (v(n)*dt);
 end
 
-if x(n-1) < (xTop-l)
-    d = xTop - l - x(n-1);
-    Fb = k * d;
-else
-    Fb = 0;
-end
 
 
 %% Do plot
