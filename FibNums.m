@@ -4,7 +4,7 @@ clear % Clears all Vars
 close % Closes any figures
 
 % What Fib number do we want?
-fMax = 20;
+fMax = 5;
 
 % Define first 2 Fib numbers
 F(1) = 3;
