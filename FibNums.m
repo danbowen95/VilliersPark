@@ -7,8 +7,8 @@ close % Closes any figures
 fMax = 5;
 
 % Define first 2 Fib numbers
-F(1) = 3;
-F(2) = 4;
+F(1) = 1;
+F(2) = 1;
 
 % Loop through n=3,n=4,n=5... n=fMax.
 for n = 3:fMax
